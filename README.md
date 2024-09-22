@@ -1,6 +1,10 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=%3Eccff00&lines=Hi%F0%9F%91%8B+i%27m+Shash29!)
 ---
+## About me
 
+### 👋 I'm a 13-y.o programmer from Chelyabinsk.
+### 🖥️ I program in Python, Html, css and a bit of javascript.
+### ⚜️ I use OpenSUSE btw
 ---
 ### Statistics
 
