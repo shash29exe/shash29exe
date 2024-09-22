@@ -4,7 +4,7 @@
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shash29exe&theme=solarized_dark)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shash29exe&theme=solarized_dark)![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shash29exe&theme=solarized_dark)
-![](https://github-readme-stats.vercel.app/api?username=shash29exe)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shash29exe&theme=solarized_dark)
 ---
 ### Back-end
 
