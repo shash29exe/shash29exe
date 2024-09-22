@@ -1,5 +1,7 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=%3Eccff00&lines=Hi%F0%9F%91%8B+i%27m+Shash29!)
 ---
+
+---
 ### Statistics
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shash29exe&theme=solarized_dark)
