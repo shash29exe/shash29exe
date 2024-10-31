@@ -42,7 +42,7 @@
 ### OS
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Debian](https://img.shields.io/badge/Debian-%2364B345?style=for-the-badge&logo=Debian&logoColor=red)
+![Debian](https://img.shields.io/badge/Debian-%23f2f2f2?style=for-the-badge&logo=Debian&logoColor=red)
 ---
 ### Tools/IDEs/Games
 
