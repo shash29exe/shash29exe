@@ -42,7 +42,7 @@
 ### OS
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![openSUSE](https://img.shields.io/badge/openSUSE-%2364B345?style=for-the-badge&logo=openSUSE&logoColor=white)
+![Debian](https://img.shields.io/badge/Debian-%2364B345?style=for-the-badge&logo=openSUSE&logoColor=white)
 ---
 ### Tools/IDEs/Games
 
