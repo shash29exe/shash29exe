@@ -3,7 +3,7 @@
 ## About me
 ### 👋 I'm a 13-y.o programmer from Chelyabinsk.
 ### 🖥️ I program in Python, Html, css and a bit of javascript.
-### ⚜️ I use OpenSUSE btw
+### ⚜️ I use Debian btw
 ---
 ### Statistics
 
