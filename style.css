@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: shash29;
+    font-size: 60px;
+    user-select: none;
+}
+
+@font-face {
+    font-family: "shash29";
+    src: url("font.ttf");
+}
+
+.bio {
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    border: solid;
+    border-width: 0px 2px;
+    padding: 5px 15px;
+    border-color: red;
+    transition: padding-top 0.3s ease, padding-bottom 0.3s ease;
+}
+
+.bio:hover {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-width: 2px 2px;
+    border-radius: 5px;
+}
