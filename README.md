@@ -2,7 +2,8 @@
 ---
 ## About me
 ### 👋 I'm a 13-y.o programmer from Chelyabinsk.
-### 🖥️ I program in C++, Python, Html, Css and a bit of Javascript.
+### 🖥️ I program in C++, python and a bit of JavaScript.
+### 🌐 I write websites in html, css
 ### ⚜️ I use Debian btw
 ---
 ### Statistics
