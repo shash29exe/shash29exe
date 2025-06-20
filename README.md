@@ -1,7 +1,7 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=%3Eccff00&lines=Hi%F0%9F%91%8B+i%27m+Shash29!)
 ---
 ## About me
-### 👋 I'm a 13-y.o programmer from Chelyabinsk.
+### 👋 I'm a programmer from Chelyabinsk.
 ### 🖥️ I program in C++, python and a bit of JavaScript.
 ### 🌐 I write websites in html, css
 ### ⚜️ I use Debian btw
