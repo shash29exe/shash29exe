@@ -5,6 +5,7 @@
 ### 🖥️ I program in python and a bit of JavaScript.
 ### 🌐 I write websites in html, css
 ### ⚜️ I use Debian btw
+бабуюужцэц за лыьыб
 ---
 ### Statistics
 
