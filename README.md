@@ -4,6 +4,7 @@
 ### 👋 I'm a 13-y.o programmer from Chelyabinsk.
 ### 🖥️ I program in Python, C++, html, css and a bit of javascript.
 ### ⚜️ I use Debian btw
+#### Пока что сайт [shash29.ru](https://shash29.ru/) устарел. Скоро будет новая версия сайта.
 ---
 ### Statistics
 
