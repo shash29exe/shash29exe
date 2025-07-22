@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sites Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outdated" id="outdated">
+        <p>Этот сайт устаревший.</p>
+        <a onclick="removeOverlay()"><p class="continue">Продолжить</p></a>
+    </div>
+<!--     <script>
+        function updateTimer() {
+            const now = new Date();
+            const nextYear = now.getFullYear() + 1;
+            const newYearDate = new Date(nextYear, 0, 1);
+
+            const remainingTime = newYearDate - now;
+
+            const days = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
+
+            document.getElementById('timer').innerHTML = 
+                days + " дней " + hours + " часов " + minutes + " минут " + seconds + " секунд ";
+
+            if (remainingTime < 0) {
+                clearInterval(timerInterval);
+                document.getElementById('timer').innerHTML = "С НОВЫМ ГОДОМ!";
+            }
+        }
+        const timerInterval = setInterval(updateTimer, 1000);
+        updateTimer();
+    </script> -->
+<!--     <p style="font-size: 20px;">До нового года осталось</p>
+    <div style="font-size: 30px;" id="timer"></div> -->
+
+
+<!--     <script>
+        function updateTimer() {
+            const now = new Date();
+            const currentYear = now.getFullYear();
+            
+            let summerDate = new Date(currentYear, 5, 1);
+            
+            if (now > summerDate) {
+                summerDate = new Date(currentYear + 1, 5, 1);
+            }
+    
+            const remainingTime = summerDate - now;
+    
+            const days = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
+    
+            document.getElementById('timer').innerHTML = 
+                days + " дней " + hours + " часов " + minutes + " минут " + seconds + " секунд ";
+    
+            if (remainingTime < 0) {
+                clearInterval(timerInterval);
+                document.getElementById('timer').innerHTML = "Лето чучуть";
+            }
+        }
+        const timerInterval = setInterval(updateTimer, 1000);
+        updateTimer();
+    </script> -->
+<!--     <p style="font-size: 20px;">До лета осталось</p>
+    <div style="font-size: 30px;" id="timer"></div> -->
+
+    <h1 style="font-size: 50px; padding-top: 50px;">Хаб сайтов Shash29</h1>
+    <p style="font-size: 40px; padding-top: 30px;">bio sites</p>
+    <br>
+    <a class="bio" href="https://shash29exe.github.io/shash29bio/" target="_blank">bio 1</a>
+    <br>
+    <a class="bio" href="https://shash29exe.github.io/site/" target="_blank">bio 2</a>
+    <p style="font-size: 40px; padding-top: 30px;">other sites</p>
+    <br>
+    <a class="bio" href="https://shash29exe.github.io/new-tab" target="_blank">new-tab</a>
+    <br>
+<!--     <p style="font-size: 40px; padding-top: 30px;">Некоторые сайты еще в разработке.</p> -->
+    <script src="rm_overlay.js"></script>
+</body>
+</html>
