@@ -6,4 +6,4 @@
 
 ---
 
-## Сайт обо мне на основе [Beautiful-player](https://shash29exe.github.io/Beautiful-player/src/)
+## Сайт обо мне на основе [Beautiful-player](https://https://github.com/shash29exe/Beautiful-player)
