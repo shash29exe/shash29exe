@@ -263,6 +263,18 @@ hr {
   display: none;
 }
 
+::selection {
+
+background: #2f1982; 
+
+}
+
+::-moz-selection {
+
+background: #2f1982;
+
+}
+
 @media (max-width: 768px) {
   body {
     background: black;
