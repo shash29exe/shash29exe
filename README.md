@@ -5,7 +5,7 @@
 ### 🖥️ I program in python and a bit of JavaScript.
 ### 🌐 I write websites in html, css
 ### ⚜️ I use Debian btw
-#### Пока что сайт [shash29.ru](https://shash29.ru/) устарел. Скоро будет новая версия сайта.
+
 ---
 ### Statistics
 
