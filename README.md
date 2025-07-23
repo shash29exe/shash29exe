@@ -6,6 +6,6 @@
 
 ---
 
-## Сайт обо мне на основе [Beautiful-player](https://https://github.com/shash29exe/Beautiful-player).
----
+## Сайт обо мне на основе [Beautiful-player](https://github.com/shash29exe/Beautiful-player).
+
 ## Стили для мобильных устройств в разработке.
