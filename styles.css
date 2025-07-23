@@ -276,7 +276,8 @@ background: #2f1982;
 }
 
 .link {
-  color: #4d27d8;
+  color: inherit;
+  color: #653bff;
   transition: color 0.3s ease;
 }
 
