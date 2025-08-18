@@ -9,3 +9,5 @@
 ## Сайт "обо мне" на основе [Beautiful-player](https://github.com/shash29exe/Beautiful-player).
 
 ## Стили для мобильных устройств в разработке.
+
+onion mirror: shash4yvhwkdrewk2f77nbkm7fqi6sebhslxlmzuoh6nhmadcgfac4yd.onion
