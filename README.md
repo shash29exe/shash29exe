@@ -4,7 +4,7 @@
 ### 👋 I'm a programmer from Chelyabinsk.
 ### 🖥️ I program in python and a bit of JavaScript.
 ### 🌐 I write websites in html, css
-### ⚜️ I use Debian and Arch btw
+### ⚜️ I use Debian
 
 ---
 ### Statistics
