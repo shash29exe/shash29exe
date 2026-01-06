@@ -63,7 +63,7 @@ input.addEventListener("keydown", async e => {
     if (cmd === "exit") { closeWindow(); return; }
 
     let result = commands[cmd];
-    if (!result) result = `comand not found: ${cmd}`;
+    if (!result) result = `command not found: ${cmd}`;
     else if (typeof result === "function") result = await result(args);
 
     output.innerHTML += `shash29@shash29.ru&gt; ${value}<br>${result}<br><br>`;
