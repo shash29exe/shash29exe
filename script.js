@@ -21,27 +21,35 @@ function okShashver() {
 const commands = {
     help: `
 help      - shows this text<br><br>
+about     - about<br>
 socials   - show socials<br>
-about     - about<br><br>
+sites     - show my websites<br><br>
 echo      - outputs text<br>
 whoami    - shows your username<br>
 date      - shows current date<br>
 ipconfig  - shows your IP<br>
 cls       - clears terminal<br>
-exit      - close
+exit      - close terminal
     `.replace(/ /g, '&nbsp;'),
 
     date: () => new Date().toString(),
     echo: (args) => args.join(" "),
     whoami: "shash29",
-    socials:
-        '<a style="color:#ccc" href="https://github.com/shash29exe" target="_blank">GitHub</a><br>' +
-        '<a style="color:#ccc" href="https://t.me/shash29_sh" target="_blank">Telegram</a>',
-    about: `
+        about: `
 I'm a programmer from Chelyabinsk.<br>
 I program in Python, HTML, CSS and a bit of JavaScript.<br>
 I use Debian and Arch btw
     `,
+    socials:
+        '<a style="color:#ccc" href="https://github.com/shash29exe" target="_blank">GitHub</a><br>' +
+        '<a style="color:#ccc" href="https://t.me/shash29_sh" target="_blank">Telegram</a>',
+    sites:
+        '<a style="color:#ccc" href="/old/" target="_blank">Old 1</a><br>' +
+        '<a style="color:#ccc" href="/old2/">Old 2</a><br>' +
+        '<a style="color:#ccc" href="https://site.shash29.ru" target="_blank">Site</a><br>' +
+        '<a style="color:#ccc" href="https://linus-torvalds.shash29.ru" target="_blank">Linus Torvalds prank</a><br>' +
+        '<a style="color:#ccc" href="https://newtab.shash29.ru/" target="_blank">new-tab</a><br>' +
+        '<a style="color:#ccc" href="https://shashon-bio.shash29.ru" target="_blank">shashon-bio</a><br>',
     ipconfig: async () => {
         try {
             const res = await fetch('https://api.ipify.org?format=json');
