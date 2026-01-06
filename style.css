@@ -39,7 +39,7 @@ body {
 }
 
 .bio-window {
-    display: none;
+    /* display: none; */
     z-index: 1;
 }
 
