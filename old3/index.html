@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon//favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <title>Bio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bio-window" id="bio-window">
+    <div class="header">
+        <div class="header-left">
+            <img src="img/icon.jpg" alt="shash29" class="profile-pic">
+            <p class="header-title">Shash29</p>
+        </div>
+
+        <div class="header-right">
+            <div class="buttons">
+                <span class="minimize">
+                    <span class="minimize-icon">_</span>
+                </span>
+
+                <span class="collapse">
+                    <svg width="14" height="14" viewBox="0 0 14 14">
+                        <defs>
+                            <mask id="window-mask">
+                                <rect width="14" height="14" fill="white"/>
+                                <rect x="1" y="3" width="9" height="9" fill="black"/>
+                            </mask>
+                        </defs>
+
+                        <rect x="4" y="1" width="9" height="9"
+                              fill="none"
+                              stroke="white"
+                              stroke-width="1.5"
+                              mask="url(#window-mask)"/>
+
+                        <rect x="1" y="4" width="9" height="9"
+                              fill="none"
+                              stroke="white"
+                              stroke-width="1.5"/>
+                    </svg>
+                </span>
+
+                <span class="close" onclick="closeWindow()">✕</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="terminal" id="terminal">
+        <p>
+            Shash29 [Version 05.01.26]<br>
+            (C) Shash29<br>
+            Type 'help' to see available commands.<br><br>
+        </p>
+
+        <div id="output"></div>
+
+        <div class="input-line">
+            <span>shash29@shash29.ru&gt;</span>
+            <input type="text" id="input" autofocus>
+        </div>
+    </div>
+</div>
+
+<div class="shashver-window" id="shashver-window">
+    <div class="header header-shashver">
+        <div class="header-left">
+            <p class="header-title header-title-black">About Shash29</p>
+        </div>
+
+        <div class="header-right">
+            <div class="buttons">
+                <span class="close shashver-close" onclick="alert('no')">✕</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <img class="shashver-icon" src="img/shashver.png" alt="shash logo" width="300">
+        <hr class="shashver-hr">
+
+        <p class="about-text">
+            Shash29<br>
+            Version 05.01.26<br>
+            &copy; Shash29<br>
+
+            👋 I'm a programmer from Chelyabinsk.<br>
+            🖥️ I program in Python, Html, css and a bit of javascript.<br>
+            ⚜️ I use Debian and Arch btw.<br>
+            <br>
+            My socials:
+        </p>
+        <div class="about-socials">
+            <ul>
+                <li><a href="https://github.com/shash29exe" target="_blank">Github</a></li>
+                <li><a href="https://t.me/shash29_sh" target="_blank">Telegram</a></li>
+                <li><a href="https://steamcommunity.com/id/shash29" target="_blank">Steam</a></li>
+            </ul>
+        </div>
+        <p class="about-text" style="padding-top: 10px;">
+            My sites
+        </p>
+        <div class="about-sites">
+            <a href="../old/" target="_blank">Old 1</a>
+            <a href="../old2/" target="_blank">Old 2</a>
+            <a href="https://site.shash29.ru" target="_blank">Site</a>
+            <a href="https://linus-torvalds.shash29.ru" target="_blank">Linus Torvalds prank</a>
+            <a href="https://newtab.shash29.ru/" target="_blank">new-tab</a>
+            <a href="https://shashon-bio.shash29.ru" target="_blank">shashon-bio</a>
+        </div>
+
+        <button class="ok-button" onclick="okShashver()">OK</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

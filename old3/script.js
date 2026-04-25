@@ -44,8 +44,8 @@ I use Debian and Arch btw
         '<a style="color:#ccc" href="https://github.com/shash29exe" target="_blank">GitHub</a><br>' +
         '<a style="color:#ccc" href="https://t.me/shash29_sh" target="_blank">Telegram</a>',
     sites:
-        '<a style="color:#ccc" href="/old/" target="_blank">Old 1</a><br>' +
-        '<a style="color:#ccc" href="/old2/" target="_blank">Old 2</a><br>' +
+        '<a style="color:#ccc" href="../old/" target="_blank">Old 1</a><br>' +
+        '<a style="color:#ccc" href="../old2/" target="_blank">Old 2</a><br>' +
         '<a style="color:#ccc" href="https://site.shash29.ru" target="_blank">Site</a><br>' +
         '<a style="color:#ccc" href="https://linus-torvalds.shash29.ru" target="_blank">Linus Torvalds prank</a><br>' +
         '<a style="color:#ccc" href="https://newtab.shash29.ru/" target="_blank">new-tab</a><br>' +
