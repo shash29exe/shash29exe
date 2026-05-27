@@ -57,3 +57,77 @@ body {
 .link-separator {
     cursor: default;
 }
+
+.email {
+    color: rgb(19, 168, 19);
+    text-decoration: none;
+    text-shadow: 0px 0px 20px rgb(0, 221, 0);
+    font-weight: 900;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
+}
+
+.email:hover {
+    color: rgb(0, 221, 0);
+    text-shadow: 0px 0px 30px rgb(0, 255, 0);
+    cursor: pointer;
+}
+
+.email-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    user-select: none;
+    margin-top: 20px;
+}
+
+.email-container svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.email-container svg:hover {
+    filter: drop-shadow(0 0 10px rgb(0, 255, 0));
+}
+
+.copy-notification {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 221, 0, 0.541);
+    color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    z-index: 1000;
+    user-select: none;
+    animation: fadeInOut 1.5s ease-in-out;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.8);
+    }
+    10% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    90% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.8);
+    }
+}
