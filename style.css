@@ -6,11 +6,17 @@
 }
 
 body {
-    background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.5)), url('./img/bg.png');
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.5)), url('./img/click-the-sircles.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .profile {
@@ -19,7 +25,9 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    height: 100%;
+    flex: 1;
+    width: 100%;
+    padding: 20px 0;
 }
 
 .pfp {
@@ -42,9 +50,9 @@ body {
 }
 
 .link {
-    color: rgb(19, 168, 19);
+    color: rgb(156, 156, 156);
     text-decoration: none;
-    text-shadow: 0px 0px 20px rgb(0, 221, 0);
+    text-shadow: 0px 0px 20px rgb(156, 156, 156);
     font-weight: 900;
     transition: all 0.3s ease;
 }
@@ -59,9 +67,9 @@ body {
 }
 
 .email {
-    color: rgb(19, 168, 19);
+    color: rgb(156, 156, 156);
     text-decoration: none;
-    text-shadow: 0px 0px 20px rgb(0, 221, 0);
+    text-shadow: 0px 0px 20px rgb(156, 156, 156);
     font-weight: 900;
     transition: all 0.3s ease;
     display: inline-flex;
@@ -130,4 +138,30 @@ body {
         opacity: 0;
         transform: translate(-50%, -50%) scale(0.8);
     }
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(119, 119, 119, 0.452);
+    padding: 20px 0;
+    width: 100%;
+}
+
+.bar-title {
+    transition: 0.3s ease all;
+    user-select: none;
+}
+
+.bar-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.bar-title:hover {
+    letter-spacing: 20px;
 }
