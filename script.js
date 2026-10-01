@@ -30,3 +30,20 @@ function startCountdown() {
 }
 
 startCountdown();
+
+document.addEventListener('DOMContentLoaded', () => {
+    const copyBtn = document.getElementById('copy-email-btn');
+
+    if (copyBtn) {
+        copyBtn.addEventListener('click', () => {
+            const email = copyBtn.getAttribute('data-email');
+            navigator.clipboard.writeText(email).then(() => {
+                const originalText = copyBtn.textContent;
+                copyBtn.textContent = 'Скопировано';
+                setTimeout(() => {
+                    copyBtn.textContent = originalText;
+                }, 2000);
+            });
+        });
+    }
+});

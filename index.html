@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,52 +7,58 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="dot-pattern"></div>
+    <main class="content">
+        <header class="header">
+            <h1>Shash29</h1>
+            <p class="subtitle">15 y.o. web developer & system administrator</p>
+        </header>
 
-    <div class="nav-bar">
-        <ul>
-            <li><a href="./" style="text-decoration: underline;">Home</a></li>
-            <li><a href="./links.html">Links</a></li>
-        </ul>
-    </div>
-    <div class="content">
-        <h1>Shash29</h1>
-        <hr>
+        <section class="card">
+            <h2>День рождения</h2>
+            <p>5 октября (осталось: <span id="countdown"></span>)</p>
+        </section>
 
-        <h2>Who am I?</h2>
-        <p>I am 15 y.o. web developer and system administrator.</p>
+        <section class="card">
+            <h2>Связь</h2>
+            <div class="btn-group">
+                <a class="btn btn-primary" href="https://t.me/shash29_sh" target="_blank">Telegram</a>
+                <button class="btn btn-outline" id="copy-email-btn" data-email="admin@shash29.com">
+                    admin@shash29.com
+                </button>
+            </div>
+        </section>
 
-        <h2>Bithday</h2>
-        <p>October 5th (left: <span id="countdown"></span>)</p>
+        <section class="card">
+            <h2>Мои девайсы</h2>
+            <ul class="device-list">
+                <li><strong>ПК:</strong> Ryzen 5 5600, RX 6600M, 32 GB DDR5</li>
+                <li><strong>Ноутбук:</strong> ASUS TUF Gaming A15 (FA507NV-LP023)</li>
+                <li><strong>Основной телефон:</strong> Xiaomi Redmi Note 10T</li>
+                <li><strong>Второй телефон:</strong> Xiaomi Redmi 13C</li>
+            </ul>
+        </section>
 
-        <h2>Contacts</h2>
-        <div class="btn-group">
-            <a class="btn btn-primary" href="https://t.me/shash29_sh" target="_blank">Telegram</a>
-            <a class="btn btn-outline" onclick="navigator.clipboard.writeText('admin@shash29.com');">admin@shash29.com</a>
-        </div>
+        <section class="card">
+            <h2>osu!</h2>
+            <a href="https://osu.ppy.sh/users/33828588" target="_blank" class="osu-sig">
+                <img src="https://lemmmy.pw/osusig/sig.php?colour=hex515151&uname=shash29&pp=1&onlineindicator=undefined&xpbar" alt="osu! profile">
+            </a>
+        </section>
 
-        <h2>Devices</h2>
-        <ul>
-            <li>PC (R5 5600, RX 6600M, 32 Gb DDR5)</li>
-            <li>Laptop (ASUS TUF Gaming A15 FA507NV-LP023)</li>
-            <li><b>[MAIN]</b> Xiaomi Redmi Note 10T</li>
-            <li>Xiaomi Redmi 13C</li>
-        </ul>
+        <footer class="footer">
+            <div class="gif-badges">
+                <img src="gifs/shash29.gif" alt="shash29">
+                <img src="gifs/hi-res.gif" alt="hi-res">
+                <a href="https://rutracker.org/forum/profile.php?mode=viewprofile&u=53015765" target="_blank"><img src="gifs/rutracker.gif" alt="rutracker"></a>
+                <img src="gifs/amd_powered.gif" alt="amd">
+                <img src="gifs/anybrowser.gif" alt="any browser">
+                <a href="https://shefos.org"><img src="gifs/shefos.gif" alt="shefos"></a>
+                <img src="gifs/HOPE.gif" alt="hope">
+            </div>
+            <p class="footer-text">сихеш</p>
+        </footer>
+    </main>
 
-        <h2>osu!</h2>
-        <a href="https://osu.ppy.sh/users/33828588" target="_blank"><img src="http://lemmmy.pw/osusig/sig.php?colour=hex515151&uname=shash29&pp=1&onlineindicator=undefined&xpbar"></a>
-
-        <div class="footer">
-            <img src="gifs/shash29.gif">
-            <img src="gifs/hi-res.gif">
-            <a href="https://rutracker.org/forum/profile.php?mode=viewprofile&u=53015765" target="_blank"><img src="gifs/rutracker.gif"></a>
-            <img src="gifs/amd_powered.gif">
-            <img src="gifs/anybrowser.gif">
-            <a href="https://shefos.org"><img src="gifs/shefos.gif"></a>
-            <img src="gifs/HOPE.gif">
-            very simple page by shash29 with 💖
-        </div>
-    </div>
     <script src="script.js"></script>
 </body>
 </html>
