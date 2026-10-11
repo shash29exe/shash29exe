@@ -46,7 +46,7 @@ exit      - close terminal
             const data = await res.json();
             return `Your IP: ${data.ip}`;
         } catch {
-            return "Error fetching IP";
+            return "Error fetching IP address";
         }
     }
 };
