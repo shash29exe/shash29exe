@@ -20,10 +20,9 @@ function okShashver() {
 
 const commands = {
     help: `
-help      - shows this text<br><br>
-about     - about<br>
-socials   - show socials<br>
-sites     - show my websites<br><br>
+help      - shows this text<br>
+links     - show links<br>
+email     - show email<br>
 echo      - outputs text<br>
 whoami    - shows your username<br>
 date      - shows current date<br>
@@ -35,28 +34,19 @@ exit      - close terminal
     date: () => new Date().toString(),
     echo: (args) => args.join(" "),
     whoami: "shash29",
-        about: `
-I'm a programmer from Chelyabinsk.<br>
-I program in Python, HTML, CSS and a bit of JavaScript.<br>
-I use Debian and Arch btw
-    `,
-    socials:
-        '<a style="color:#ccc" href="https://github.com/shash29exe" target="_blank">GitHub</a><br>' +
-        '<a style="color:#ccc" href="https://t.me/shash29_sh" target="_blank">Telegram</a>',
-    sites:
-        '<a style="color:#ccc" href="../old/" target="_blank">Old 1</a><br>' +
-        '<a style="color:#ccc" href="../old2/" target="_blank">Old 2</a><br>' +
-        '<a style="color:#ccc" href="https://site.shash29.ru" target="_blank">Site</a><br>' +
-        '<a style="color:#ccc" href="https://linus-torvalds.shash29.ru" target="_blank">Linus Torvalds prank</a><br>' +
-        '<a style="color:#ccc" href="https://newtab.shash29.ru/" target="_blank">new-tab</a><br>' +
-        '<a style="color:#ccc" href="https://shashon-bio.shash29.ru" target="_blank">shashon-bio</a><br>',
+    links:
+        '<a style="color: #ccc;" href="https://github.com/shash29exe" target="_blank">GitHub</a><br>' +
+        '<a style="color: #ccc;" href="https://t.me/shash29_sh" target="_blank">Telegram</a><br>' +
+        '<a style="color: #ccc;" href="https://steamcommunity.com/id/shash29" target="_blank">Steam</a>',
+    email:
+        '<a style="color: #ccc;" href="mailto:admin@shash29.com">admin@shash29.com</a>',
     ipconfig: async () => {
         try {
             const res = await fetch('https://api.ipify.org?format=json');
             const data = await res.json();
-            return `your IP: ${data.ip}`;
+            return `Your IP: ${data.ip}`;
         } catch {
-            return "error fetching IP";
+            return "Error fetching IP";
         }
     }
 };
@@ -74,7 +64,7 @@ input.addEventListener("keydown", async e => {
     if (!result) result = `command not found: ${cmd}`;
     else if (typeof result === "function") result = await result(args);
 
-    output.innerHTML += `shash29@shash29.ru&gt; ${value}<br>${result}<br><br>`;
+    output.innerHTML += `shash29@shash29.com&gt; ${value}<br>${result}<br><br>`;
     output.scrollTop = output.scrollHeight;
     input.value = "";
 });
