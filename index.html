@@ -1,64 +1,115 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shash29</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon//favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <title>Bio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main class="content">
-        <header class="header">
-            <h1>Shash29</h1>
-            <p class="subtitle">15 y.o. web developer & system administrator</p>
-        </header>
 
-        <section class="card">
-            <h2>День рождения</h2>
-            <p>5 октября (осталось: <span id="countdown"></span>)</p>
-        </section>
+<div class="bio-window" id="bio-window">
+    <div class="header">
+        <div class="header-left">
+            <img src="img/icon.jpg" alt="shash29" class="profile-pic">
+            <p class="header-title">Shash29</p>
+        </div>
 
-        <section class="card">
-            <h2>Связь</h2>
-            <div class="btn-group">
-                <a class="btn btn-primary" href="https://t.me/shash29_sh" target="_blank">Telegram</a>
-                <button class="btn btn-outline" id="copy-email-btn" data-email="admin@shash29.com">
-                    admin@shash29.com
-                </button>
+        <div class="header-right">
+            <div class="buttons">
+                <span class="minimize">
+                    <span class="minimize-icon">_</span>
+                </span>
+
+                <span class="collapse">
+                    <svg width="14" height="14" viewBox="0 0 14 14">
+                        <defs>
+                            <mask id="window-mask">
+                                <rect width="14" height="14" fill="white"/>
+                                <rect x="1" y="3" width="9" height="9" fill="black"/>
+                            </mask>
+                        </defs>
+
+                        <rect x="4" y="1" width="9" height="9"
+                              fill="none"
+                              stroke="white"
+                              stroke-width="1.5"
+                              mask="url(#window-mask)"/>
+
+                        <rect x="1" y="4" width="9" height="9"
+                              fill="none"
+                              stroke="white"
+                              stroke-width="1.5"/>
+                    </svg>
+                </span>
+
+                <span class="close" onclick="closeWindow()">✕</span>
             </div>
-        </section>
+        </div>
+    </div>
 
-        <section class="card">
-            <h2>Мои девайсы</h2>
-            <ul class="device-list">
-                <li><strong>ПК:</strong> Ryzen 5 5600, RX 6600M, 32 GB DDR5</li>
-                <li><strong>Ноутбук:</strong> ASUS TUF Gaming A15 (FA507NV-LP023)</li>
-                <li><strong>Основной телефон:</strong> Xiaomi Redmi Note 10T</li>
-                <li><strong>Второй телефон:</strong> Xiaomi Redmi 13C</li>
+    <div class="terminal" id="terminal">
+        <p>
+            Shash29 [Version 05.01.26]<br>
+            (C) Shash29<br>
+            Type 'help' to see available commands.<br><br>
+        </p>
+
+        <div id="output"></div>
+
+        <div class="input-line">
+            <span>shash29@shash29.ru&gt;</span>
+            <input type="text" id="input" autofocus>
+        </div>
+    </div>
+</div>
+
+<div class="shashver-window" id="shashver-window">
+    <div class="header header-shashver">
+        <div class="header-left">
+            <p class="header-title header-title-black">About Shash29</p>
+        </div>
+
+        <div class="header-right">
+            <div class="buttons">
+                <span class="close shashver-close" onclick="alert('no')">✕</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <img class="shashver-icon" src="img/shashver.png" alt="shash logo" width="300">
+        <hr class="shashver-hr">
+
+        <p class="about-text">
+            Shash29<br>
+            Version 05.01.26<br>
+            &copy; Shash29<br><br>
+
+            Links:
+        </p>
+        <div class="about-socials">
+            <ul>
+                <li><a href="https://github.com/shash29exe" target="_blank">Github</a></li>
+                <li><a href="https://t.me/shash29_sh" target="_blank">Telegram</a></li>
+                <li><a href="https://steamcommunity.com/id/shash29" target="_blank">Steam</a></li>
             </ul>
-        </section>
+        </div>
+        <br>
+        <p class="about-text">
+            E-mail<br>
+            <a href="mailto:admin@shash29.com">admin@shash29.com</a>
+        </p>
 
-        <section class="card">
-            <h2>osu!</h2>
-            <a href="https://osu.ppy.sh/users/33828588" target="_blank" class="osu-sig">
-                <img src="https://lemmmy.pw/osusig/sig.php?colour=hex515151&uname=shash29&pp=1&onlineindicator=undefined&xpbar" alt="osu! profile">
-            </a>
-        </section>
+        <button class="ok-button" onclick="okShashver()">OK</button>
+    </div>
+</div>
 
-        <footer class="footer">
-            <div class="gif-badges">
-                <img src="gifs/shash29.gif" alt="shash29">
-                <img src="gifs/hi-res.gif" alt="hi-res">
-                <a href="https://rutracker.org/forum/profile.php?mode=viewprofile&u=53015765" target="_blank"><img src="gifs/rutracker.gif" alt="rutracker"></a>
-                <img src="gifs/amd_powered.gif" alt="amd">
-                <img src="gifs/anybrowser.gif" alt="any browser">
-                <a href="https://shefos.org"><img src="gifs/shefos.gif" alt="shefos"></a>
-                <img src="gifs/HOPE.gif" alt="hope">
-            </div>
-            <p class="footer-text">сихеш</p>
-        </footer>
-    </main>
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
